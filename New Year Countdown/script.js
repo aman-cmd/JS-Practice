@@ -9,9 +9,9 @@ function calTime(){
     const minutes = Math.floor(((diff % 86400) % 3600) / 60);
     const seconds = Math.floor((((diff % 86400) % 3600) % 60));
     document.getElementById("days").innerHTML = `${days}`;
-    document.getElementById("hours").innerHTML = `${hours}`;
-    document.getElementById("minutes").innerHTML = `${minutes}`;
-    document.getElementById("seconds").innerHTML = `${seconds}`;
+    document.getElementById("hours").innerHTML = `${hours}` < 10 ? `0${hours}` : `${hours}`;
+    document.getElementById("minutes").innerHTML = `${minutes}` < 10 ? `0${minutes}` : `${minutes}`;
+    document.getElementById("seconds").innerHTML = `${seconds}` < 10 ? `0${seconds}` : `${seconds}`;
     document.getElementById("nextyear").innerHTML = `${currentYear+1}`;
 }
 
