@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.heading{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.swap{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 3px 20px;
+}
+
+#exchangerate{
+    margin-bottom: 1rem;
+}
