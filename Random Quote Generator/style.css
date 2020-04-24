@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Alegreya', serif;
+    background-color: aqua;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px red solid;
+}
+
+.heading{
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.quote{
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+
+.author{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#next-quote{
+    margin-top: 1rem;
+    padding: 15px;
+}
