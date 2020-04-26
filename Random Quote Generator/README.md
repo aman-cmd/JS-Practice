@@ -1,0 +1,1 @@
+API Used: https://github.com/lukePeavey/quotable
